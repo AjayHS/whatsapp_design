@@ -17,7 +17,7 @@
    
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><i class="material-icons">chat</i>  Chats  </a>
+  <a class="navbar-brand" href="#"><i class="material-icons">mail_outline</i> Unread Messages  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,7 +25,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="unread.html"> <i class="material-icons">mail_outline</i> Unread Messages <span class="badge badge-dark"> 2</span> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html"><i class="material-icons">chat</i>  Chats  <span class="sr-only">(current)</span></a>
       </li>
       
       <li class="nav-item dropdown">
@@ -34,10 +34,8 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#"><i class="material-icons"> account_box</i>Account</a>
  <div class="dropdown-divider"></div>
-
           <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal"><i class="material-icons">face</i> Change Profile picture </a>
           <div class="dropdown-divider"></div>
-
           <a class="dropdown-item" href="#"><i class="material-icons">person_add</i> Invite a Friend</a>
         </div>
       </li>
@@ -53,48 +51,44 @@
 
 <div class="list-group">
 
+<a href="#" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#exampleModalLong">
+ <img src="logo_CN.png" alt="No Image to display" class="rounded-circle"> Cartoon Network Group <span class="badge badge-dark">10</span></a>
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"> <img src="logo_CN.png" alt="No Image to display" class="rounded-circle">Cartoon Network Group Chat</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cartoon Network is an American basic cable and satellite television channel that is owned by The Cartoon Network, Inc., a subsidiary of Turner Broadcasting System, itself being a subsidiary of Time Warner. It was founded by Betty Cohen and launched on October 1, 1992.
+
+The channel primarily broadcasts children's shows, mostly animated programming, ranging from action to animated comedy. It is primarily aimed at children and young teenagers between the ages of 7 to 15, and targets older teens and adults with mature content during its late night daypart Adult Swim, which is treated as a separate entity for promotional purposes and as a separate channel by Nielsen for ratings purposes.
+
+
+It operates daily from 6:00 AM to 8:00 PM (ET). A Spanish language audio track for select programs is accessible via second audio programing (SAP); some cable and satellite companies offer the Spanish feed as a separate channel by removing the main English-language audio track. It is also the related channel of Turner-owned Boomerang.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Chat</button>
+        <button type="button" class="btn btn-primary">Read</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <a href="#" class="list-group-item list-group-item-action "  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+ <img src="logo_Kai.png" alt="No Image to display" class="rounded-circle">The Kai <span class="badge badge-dark">1</span></a>
+
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-  All the messages are read.    
+ <p><i class="material-icons">do_not_disturb</i>This message was deleted </p>   
 </div>
 </div>
-
-<!-- Chat -->
-<a a href="#" class="list-group-item list-group-item-action"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
- <img src="logo_Ash_Ketchum.png" alt="No Image to display" class="rounded-circle"> Ash</a>
-
-
-
-  <a href="#" class="list-group-item list-group-item-action " data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
- <img src="logo_Ben_10.png" alt="No Image to display" class="rounded-circle">Ben  10</a>
-
-<a href="Blog.html" class="list-group-item list-group-item-action active">
- <img src="logo_Goku.png" alt="No Image to display" class="rounded-circle"> Goku </a>
- 
- <a href="#" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
- <img src="logo_Jerry.png" alt="No Image to display" class="rounded-circle"> Jerry</a> 
-
-
-
-
-  <a href="#" class="list-group-item list-group-item-action "data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  <img src="logo_Bean.png" alt="No Image to display" class="rounded-circle">  Mr.Bean</a>
-
-
-
-  <a href="#" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
- <img src="logo_Scooby_Doo.png" alt="No Image to display" class="rounded-circle"> Scooby Doo </a>
-
-  <a href="#" class="list-group-item list-group-item-action"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">	
-  <img src="logo_Tom.png" alt="No Image to display" class="rounded-circle"> Tom </a>
-
-
- 
-  
-  <a href="#" class="list-group-item list-group-item-action disabled">
-<img src="logo_Tyson.png" alt="No Image to display" class="rounded-circle"> Tyson</a>
-
-
 
 
 <!-- Chanage Picture Modal -->
@@ -102,7 +96,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Change Display Picture</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -130,16 +124,9 @@
 </div>
 
 
-
-
-
-
-
-
 </div>
 
-
-    <!-- Optional JavaScript -->
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
